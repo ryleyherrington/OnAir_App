@@ -1,0 +1,7 @@
+// this is a generated file - DO NOT EDIT
+
+DE_MARCELPOCIOT_TWITTER_OTHER_LDFLAGS_sdk_iphoneos5__=$(inherited) -framework Twitter -framework Accounts
+DE_MARCELPOCIOT_TWITTER_OTHER_LDFLAGS_sdk_iphonesimulator5__=$(inherited) -framework Twitter -framework Accounts
+
+OTHER_LDFLAGS[sdk=iphoneos5*]=$(inherited) $(DE_MARCELPOCIOT_TWITTER_OTHER_LDFLAGS_sdk_iphoneos5__) 
+OTHER_LDFLAGS[sdk=iphonesimulator5*]=$(inherited) $(DE_MARCELPOCIOT_TWITTER_OTHER_LDFLAGS_sdk_iphonesimulator5__) 
